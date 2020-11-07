@@ -1,2 +1,0 @@
-env_verify_src: "{{ role_path }}/files/host/patching /env_verify.sh"
-pre_update_src: "{{ role_path }}/files/host/patching /pre_update.sh"
