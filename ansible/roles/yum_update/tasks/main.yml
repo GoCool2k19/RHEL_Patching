@@ -5,7 +5,11 @@
 #       Notes: shell module used to compare last kernel and
 #              current, can't find a better method.
 #------------------------------------------------------------------------------
-
+- name: install one specific version of Apache
+  yum:
+    name: httpd-2.2.29-1.4.amzn1
+    state: present
+    
 - name: Updating all packages
   yum:
     name: '*'
