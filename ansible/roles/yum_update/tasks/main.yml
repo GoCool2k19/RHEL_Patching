@@ -9,6 +9,8 @@
   yum:
     name: httpd-2.2.29-1.4.amzn1
     state: present
+  tags:
+    - skip_ansible_lint
     
 - name: Updating all packages
   yum:
