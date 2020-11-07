@@ -5,7 +5,7 @@
 #------------------------------------------------------------------------------
 
 - name: Performing yum update on host(s)
-  hosts: group1
+  hosts: RHEL_8_Instances
   become: yes
   any_errors_fatal: false
 
